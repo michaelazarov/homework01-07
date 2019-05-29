@@ -1,0 +1,60 @@
+*,
+:before,
+:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: inherit;
+}
+
+.wrapper {
+	width: 400px;
+	height: 400px;
+	/*    background-color: gainsboro;*/
+	margin: 0 auto;
+}
+
+.flax-conteiner {
+	display: flex;
+	margin-top: 0px;
+}
+
+div.image-all {
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	background-size: cover;
+	width: 80px;
+	height: 80px;
+}
+
+.image1 {
+	background: url("http://infox.kg/public/images/club_members/40x40.png");
+}
+
+.image2 {
+	transform: translate(40px, 40px);
+	background: url("http://infox.kg/public/images/club_members/40x40.png");
+}
+
+.image3 {
+	transform: translate(80px, 80px);
+	background: url("http://infox.kg/public/images/club_members/40x40.png");
+}
+
+.image4 {
+	transform: translate(120px, 120px);
+	background: url("http://infox.kg/public/images/club_members/40x40.png");
+}
+
+div.image-big:hover {
+	display: block;
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+	/*    background: black;*/
+	background: url("https://otdelkino.ru/upload/iblock/46c/46c93c01fff0dd918a8c0b8243aa6e3d.jpg");
+	background-size: cover;
+	z-index: 9999;
+}
